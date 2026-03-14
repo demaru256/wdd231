@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+
+/* Hide hamburger */
+#menu {
+    display: none;
+}
+
+/* Horizontal navigation */
+nav {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+/* Two-column layout */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Make course section full width */
+section:last-child {
+    grid-column: span 2;
+}
+
+}
