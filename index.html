@@ -2,16 +2,23 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="Course Home Page">
-<meta name="author" content="Your Name">
+<meta name="description" content="Course home page for WDD231 featuring student information, web certificate courses, and links to course projects and resources.">
+<meta name="author" content="Emaru Daniel">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>WDD231 Home</title>
 
+<!-- Google Fonts preconnect -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- CSS -->
 <link rel="stylesheet" href="styles/normalize.css">
 <link rel="stylesheet" href="styles/mobile.css">
 <link rel="stylesheet" href="styles/larger.css">
 
+<!-- JS -->
 <script src="scripts/navigation.js" defer></script>
 <script src="scripts/date.js" defer></script>
 <script src="scripts/courses.js" defer></script>
@@ -20,9 +27,8 @@
 <body>
 
 <header>
-    <span>Home Page</span>
-
-    <button id="menu">☰</button>
+    <h1>Home Page</h1>
+    <button id="menu" aria-label="Toggle navigation">☰</button>
 
     <nav id="nav">
         <ul>
@@ -34,48 +40,40 @@
 </header>
 
 <main>
-
 <section>
 <h2>About Me</h2>
-<p>Hello!
-    My name is Emaru Daniel a BYU-Idaho pathway student from Kampala Uganda. From a family of Six siblings to loving parents. I love watching and playing soccer, reading, and computer related work. I am persuing a bachelors degree of software engineering, and love coding.</p>
+<p>Hello! My name is Emaru Daniel, a BYU-Idaho Pathway student from Kampala, Uganda. I come from a family of six siblings and loving parents. I love watching and playing soccer, reading, and working with computers. I am pursuing a bachelor's degree in software engineering and love coding.</p>
 </section>
 
 <section>
 <h2>Student Photo</h2>
-<img src="images/photo.jpg" alt="Student Photo">
+<img src="images/photo.jpg" alt="Emaru Daniel student photo">
 </section>
 
 <section>
 <h2>Web Certificate Courses</h2>
 
 <div class="buttons">
-<button id="all">All</button>
-<button id="wdd">WDD</button>
-<button id="cse">CSE</button>
+    <button id="all">All</button>
+    <button id="wdd">WDD</button>
+    <button id="cse">CSE</button>
 </div>
 
 <div id="courses"></div>
 
 <p>Total Credits: <span id="credits"></span></p>
-
 </section>
 
 </main>
 
 <footer>
-
 <div class="social">
-<a href="https://github.com">GitHub</a>
-<a href="https://linkedin.com">LinkedIn</a>
+    <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 </div>
 
-<p>
-© <span id="currentyear"></span> Emaru Daniel • Kampala, Uganda
-</p>
-
+<p>© <span id="currentyear"></span> Emaru Daniel • Kampala, Uganda</p>
 <p id="lastModified"></p>
-
 </footer>
 
 </body>

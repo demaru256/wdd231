@@ -4,14 +4,14 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 h1, h2 {
     text-align: center;
 }
 
-/* Center page content */
+/* Layout */
 header, main, footer {
     max-width: 800px;
     margin: 0 auto;
@@ -23,13 +23,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #333;
+    background-color: #333;
     color: white;
 }
 
-header span {
+header h1 {
     margin: 0 auto;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 /* Mobile navigation */
@@ -38,6 +39,7 @@ header span {
     background: none;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 nav {
@@ -51,26 +53,52 @@ nav.open {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0.5rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Sections */
 section {
-    background: #f2f2f2;
+    background-color: #f2f2f2;
     margin: 1rem 0;
     padding: 1rem;
+    border-radius: 5px;
 }
 
 /* Course cards */
 #courses {
     display: grid;
     gap: 10px;
+    margin-top: 1rem;
 }
 
-.completed {
-    background: green;
+#courses div {
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: default;
+}
+
+#courses div.completed {
+    background-color: green;
     color: white;
 }
 
+#courses div:hover {
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+/* Images */
 section img {
     width: 100%;
     max-width: 550px;
@@ -82,6 +110,37 @@ section img {
 /* Footer */
 footer {
     text-align: center;
-    background: #333;
+    background-color: #333;
     color: white;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+/* Social links colors */
+footer .social a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    color: white; /* default text */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+footer .social a[href*="github"] {
+    background-color: #0A66C2; /* GitHub dark gray/black */
+}
+
+footer .social a[href*="linkedin"] {
+    background-color: #0A66C2; /* LinkedIn official blue */
+}
+
+footer .social a:hover {
+    opacity: 0.8;
 }
