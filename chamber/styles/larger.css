@@ -1,0 +1,38 @@
+/* MEDIUM SCREENS */
+@media (min-width: 600px) {
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #menuBtn {
+        display: none;
+    }
+
+    #members.grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* LARGE SCREENS */
+@media (min-width: 900px) {
+
+    #members.grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* LIST VIEW STYLING */
+#members.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers cards horizontally */
+}
+
+#members.list .card {
+    width: 100%;
+    max-width: 700px; /* prevents cards from stretching too wide */
+    text-align: center;
+}

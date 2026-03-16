@@ -1,0 +1,68 @@
+{
+"members":[
+
+{
+"name":"Amani Tech Solutions",
+"address":"Samora Avenue, Dar es Salaam",
+"phone":"+255 123 456 789",
+"url":"https://amani-tech.co.tz",
+"image":"amani-tech.jpg",
+"level":"Gold"
+},
+
+{
+"name":"Zanzibar Coffee Exports",
+"address":"Ali Hassan Mwinyi Rd",
+"phone":"+255 987 654 321",
+"url":"https://zanzibarcoffee.co.tz",
+"image":"coffee-export.jpg",
+"level":"Silver"
+},
+
+{
+"name":"Safari Adventures Ltd",
+"address":"Ohio Street",
+"phone":"+255 555 123 456",
+"url":"https://safariadventures.tz",
+"image":"safari.png",
+"level":"Member"
+},
+
+{
+"name":"Tanzania Solar Power",
+"address":"Bagamoyo Road",
+"phone":"+255 777 888 999",
+"url":"https://tsolar.co.tz",
+"image":"solar.png",
+"level":"Gold"
+},
+
+{
+"name":"Dar Fresh Market",
+"address":"Kariakoo Market",
+"phone":"+255 222 333 444",
+"url":"https://darfresh.tz",
+"image":"market.jpg",
+"level":"Member"
+},
+
+{
+"name":"Precision Engineering TZ",
+"address":"Ubungo Industrial Area",
+"phone":"+255 666 777 888",
+"url":"https://precisioneng.co.tz",
+"image":"engineering.png",
+"level":"Silver"
+},
+
+{
+"name":"Coastal Hotels Group",
+"address":"Ocean Road",
+"phone":"+255 444 555 666",
+"url":"https://coastalhotels.tz",
+"image":"hotel.png",
+"level":"Gold"
+}
+
+]
+}
