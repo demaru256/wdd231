@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -9,43 +8,36 @@
 <title>Dar es Salaam Chamber of Commerce Business Directory</title>
 
 <!-- SEO -->
-
 <meta name="description" content="Explore trusted businesses in Dar es Salaam through the official Chamber of Commerce business directory.">
 <meta name="author" content="Emaru Daniel">
 
 <!-- Open Graph -->
-
 <meta property="og:title" content="Dar es Salaam Chamber Business Directory">
 <meta property="og:description" content="Explore trusted businesses in Dar es Salaam through our official Chamber of Commerce directory.">
-<meta property="og:image" content="https://demaru256.github.io/chamber/social-preview.jpg">
-<meta property="og:image:width" content="1200">
+<meta property="og:image" content="https://demaru256.github.io/wdd231/chamber/social-preview.jpg">
+<meta property="og:image:width" content="1213">
 <meta property="og:image:height" content="630">
-<meta property="og:url" content="https://demaru256.github.io/chamber/directory.html">
+<meta property="og:url" content="https://demaru256.github.io/wdd231/chamber/directory.html">
 <meta property="og:type" content="website">
 
 <!-- Twitter -->
-
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Dar es Salaam Chamber Business Directory">
 <meta name="twitter:description" content="Explore trusted businesses in Dar es Salaam through our official Chamber of Commerce directory.">
-<meta name="twitter:image" content="https://demaru256.github.io/chamber/social-preview.jpg">
+<meta name="twitter:image" content="https://demaru256.github.io/wdd231/chamber/social-preview.jpg">
 
 <!-- Google Fonts -->
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
 <!-- Favicon -->
-
 <link rel="icon" href="social-preview.jpg">
 
-<!-- Normalize -->
-
+<!-- Normalize CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
-<!-- Styles -->
-
+<!-- Custom Styles -->
 <link rel="stylesheet" href="styles/small.css">
 <link rel="stylesheet" href="styles/larger.css">
 
@@ -54,37 +46,33 @@
 <body>
 
 <header>
-<h1>Dar es Salaam Chamber of Commerce</h1>
-
-<button id="menuBtn" aria-label="Toggle navigation menu">☰ Menu</button>
-
-<nav>
-<ul id="navMenu">
-<li><a href="index.html">Home</a></li>
-<li><a href="discover.html">Discover</a></li>
-<li><a href="directory.html" class="active" aria-current="page">Directory</a></li>
-<li><a href="join.html">Join</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-</nav>
+    <h1>Dar es Salaam Chamber of Commerce</h1>
+    <button id="menuBtn" aria-label="Toggle navigation menu">☰ Menu</button>
+    <nav>
+        <ul id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html" class="active" aria-current="page">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 </header>
 
 <main>
+    <h2>Business Directory</h2>
 
-<h2>Business Directory</h2>
+    <div class="buttons">
+        <button id="grid" aria-label="Switch to grid view">Grid View</button>
+        <button id="list" aria-label="Switch to list view">List View</button>
+    </div>
 
-<div class="buttons">
-<button id="grid" aria-label="Switch to grid view">Grid View</button>
-<button id="list" aria-label="Switch to list view">List View</button>
-</div>
-
-<section id="members" class="grid" aria-live="polite"></section>
-
+    <section id="members" class="grid" aria-live="polite"></section>
 </main>
 
 <footer>
-<p>© <span id="year"></span> | WDD 231 | Emaru Daniel | Tanzania</p>
-<p>Last Modified: <span id="modified"></span></p>
+    <p>© <span id="year"></span> | WDD 231 | Emaru Daniel | Tanzania</p>
+    <p>Last Modified: <span id="modified"></span></p>
 </footer>
 
 <script src="scripts/directory.js" defer></script>
