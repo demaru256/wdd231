@@ -1,128 +1,128 @@
 /* GENERAL */
 body {
-font-family: 'Roboto', Arial, sans-serif;
-margin: 0;
-background: #f5f5f5;
-color: #222;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    color: #222;
 }
 
 /* HEADER */
 header {
-background: #003087;
-color: white;
-padding: 1rem;
-text-align: center;
+    background: #003087;
+    color: white;
+    padding: 1rem;
+    text-align: center;
 }
 
 /* NAVIGATION */
 nav ul {
-list-style: none;
-padding: 0;
-margin: 0;
-display: none;
-flex-direction: column;
-background: #003087;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    flex-direction: column;
+    background: #003087;
 }
 
 nav ul.open {
-display: flex;
+    display: flex;
 }
 
 nav a {
-color: white;
-text-decoration: none;
-padding: 0.7rem;
-display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: block;
 }
 
 nav a:hover,
 nav a.active {
-background: #001f5c;
+    background: #001f5c;
 }
 
 /* MENU BUTTON */
 #menuBtn {
-background: #001f5c;
-color: white;
-border: none;
-padding: 0.6rem 1rem;
-margin-top: 0.5rem;
-cursor: pointer;
+    background: #001f5c;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
 }
 
-/* MAIN */
+/* MAIN CONTENT */
 main {
-padding: 1rem;
-max-width: 1000px;
-margin: auto;
+    padding: 1rem;
+    max-width: 1000px;
+    margin: auto;
 }
 
 h2 {
-text-align: center;
+    text-align: center;
 }
 
 /* BUTTONS */
 .buttons {
-text-align: center;
-margin-bottom: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .buttons button {
-padding: 0.5rem 1rem;
-margin: 0.3rem;
-border: 1px solid #003087;
-background: white;
-cursor: pointer;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    border: 1px solid #003087;
+    background: white;
+    cursor: pointer;
 }
 
-/* GRID VIEW */
+/* MEMBERS GRID */
 #members.grid {
-display: grid;
-grid-template-columns: 1fr;
-gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
 }
 
-/* CARD */
+/* MEMBER CARD */
 .card {
-background: white;
-border: 1px solid #ddd;
-padding: 1rem;
-text-align: center;
-transition: 0.2s;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    transition: 0.2s;
 }
 
 .card:hover {
-transform: scale(1.02);
+    transform: scale(1.02);
 }
 
 .card img {
-width: 100%;
-height: 120px;
-object-fit: contain;
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
 }
 
-/* LIST VIEW (single clean rule) */
+/* LIST VIEW */
 #members.list {
-display: flex;
-flex-direction: column;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #members.list .card {
-width: 100%;
-max-width: 700px;
-text-align: left;
+    width: 100%;
+    max-width: 700px;
+    text-align: left;
 }
 
 #members.list img {
-display: none;
+    display: none;
 }
 
 /* FOOTER */
 footer {
-background: #003087;
-color: white;
-text-align: center;
-padding: 1rem;
-margin-top: 2rem;
+    background: #003087;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
 }
