@@ -50,7 +50,7 @@ nav a.active {
     cursor: pointer;
 }
 
-/* MAIN CONTENT */
+/* MAIN */
 main {
     padding: 1rem;
     max-width: 1000px;
@@ -75,14 +75,14 @@ h2 {
     cursor: pointer;
 }
 
-/* MEMBERS GRID */
+/* GRID VIEW */
 #members.grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
 }
 
-/* MEMBER CARD */
+/* CARD */
 .card {
     background: white;
     border: 1px solid #ddd;
@@ -111,7 +111,7 @@ h2 {
 #members.list .card {
     width: 100%;
     max-width: 700px;
-    text-align: left;
+    text-align: center;
 }
 
 #members.list img {
