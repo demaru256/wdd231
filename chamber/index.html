@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dar es Salaam Chamber of Commerce</title>
+<meta name="description" content="Welcome to the official Dar es Salaam Chamber of Commerce website. Explore local businesses and chamber events.">
+<meta name="author" content="Emaru Daniel">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Dar es Salaam Chamber Home">
+<meta property="og:description" content="Welcome to the Dar es Salaam Chamber of Commerce. Discover events, members, and join the chamber.">
+<meta property="og:image" content="images/hero.jpg">
+<meta property="og:url" content="https://demaru256.github.io/wdd231/chamber/index.html">
+<meta property="og:type" content="website">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dar es Salaam Chamber Home">
+<meta name="twitter:description" content="Welcome to the Dar es Salaam Chamber of Commerce. Discover events, members, and join the chamber.">
+<meta name="twitter:image" content="images/hero.jpg">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Favicon -->
+<link rel="icon" href="images/favicon.png">
+
+<!-- CSS -->
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/larger.css">
+
+<!-- JS -->
+<script src="scripts/home.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Dar es Salaam Chamber of Commerce</h1>
+    <button id="menuBtn" aria-label="Toggle navigation menu">☰ Menu</button>
+    <nav>
+        <ul id="navMenu">
+            <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/hero.jpg" alt="Dar es Salaam Chamber Hero" class="hero-img">
+        <a href="join.html" class="cta-button">Join the Chamber</a>
+    </section>
+
+    <!-- Current Events -->
+    <section class="current-events">
+        <h2>Current Events</h2>
+        <p>Stay tuned for upcoming chamber events and community programs.</p>
+    </section>
+
+    <!-- Weather -->
+    <section class="weather" id="weather">
+        <h2>Dar es Salaam Weather</h2>
+        <div id="current-weather"></div>
+        <div id="forecast"></div>
+    </section>
+
+    <!-- Company Spotlights -->
+    <section class="spotlights" id="spotlights">
+        <h2>Featured Members</h2>
+        <div class="cards-container" id="spotlight-cards"></div>
+    </section>
+</main>
+
+<footer>
+    <p>© <span id="year"></span> | WDD 231 | Emaru Daniel | Tanzania</p>
+    <p>Last Modified: <span id="modified"></span></p>
+</footer>
+
+</body>
+</html>
