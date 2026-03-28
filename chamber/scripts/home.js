@@ -63,3 +63,4 @@ menuBtn.addEventListener("click", () => navMenu.classList.toggle("open"));
 // Run functions
 getWeather();
 getSpotlights();
+

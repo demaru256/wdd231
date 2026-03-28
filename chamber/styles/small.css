@@ -126,3 +126,64 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+
+/* HERO */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.cta-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffcc00;
+    color: #003087;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #ffd633;
+}
+
+/* CURRENT EVENTS & WEATHER */
+.current-events, .weather, .spotlights {
+    padding: 1rem;
+    margin: 1rem 0;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Spotlights Cards */
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.cards-container .card {
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .cards-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
