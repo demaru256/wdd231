@@ -163,6 +163,13 @@ footer {
     background: white;
     border-radius: 5px;
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.current-events p {
+    background: #f0f4ff;
+    padding: 0.6rem;
+    border-radius: 5px;
 }
 
 /* Spotlights Cards */
@@ -174,6 +181,30 @@ footer {
 
 .cards-container .card {
     text-align: center;
+}
+
+/* Weather Icons */
+/* Tighter weather layout */
+#current-weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem; /* reduced gap */
+    margin: 0.3rem 0; /* reduced top/bottom spacing */
+    padding: 0.05rem; /* less padding */
+}
+
+#current-weather img {
+    width: 60px; /* slightly smaller icon */
+    margin-bottom: 0.1rem;
+}
+
+#forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem; /* smaller gap between days */
+    margin-top: 0.3rem;
 }
 
 @media (min-width: 600px) {
