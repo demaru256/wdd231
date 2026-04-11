@@ -7,20 +7,39 @@
 
 <title>Discover Dar es Salaam | Chamber of Commerce</title>
 
-<meta name="description" content="Discover places, attractions, and business opportunities in Dar es Salaam.">
+<meta name="description" content="Discover Dar es Salaam attractions, markets, and business hubs that support trade, tourism, and investment opportunities.">
 <meta name="author" content="Emaru Daniel">
 
+<!-- Open Graph -->
+<meta property="og:title" content="Discover Dar es Salaam Business Opportunities">
+
+<meta property="og:description" content="Explore Dar es Salaam's attractions, markets, and business hubs. Connect with opportunities and discover the city's trade ecosystem.">
+
+<meta property="og:image" content="https://demaru256.github.io/wdd231/chamber/images/hero.jpg">
+
+<meta property="og:url" content="https://demaru256.github.io/wdd231/chamber/discover.html">
+
+<meta property="og:type" content="website">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Discover Dar es Salaam Business Opportunities">
+<meta name="twitter:description" content="Explore Dar es Salaam's attractions, markets, and business hubs.">
+<meta name="twitter:image" content="https://demaru256.github.io/wdd231/chamber/images/hero.jpg">
+
+<!-- Favicon -->
 <link rel="icon" href="images/favicon.png">
 
-<!-- Google Fonts -->
+<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+<!-- CSS -->
 <link rel="stylesheet" href="styles/small.css">
 <link rel="stylesheet" href="styles/larger.css">
 
+<!-- JS (MODULE REQUIRED) -->
 <script type="module" src="scripts/discover.js"></script>
 <script src="scripts/home.js" defer></script>
 
@@ -31,7 +50,7 @@
 <header>
 <h1>Dar es Salaam Chamber of Commerce</h1>
 
-<button id="menuBtn">☰ Menu</button>
+<button id="menuBtn" aria-label="Toggle navigation menu">☰ Menu</button>
 
 <nav>
 <ul id="navMenu">
@@ -48,8 +67,10 @@
 
 <h2>Discover Dar es Salaam</h2>
 
+<!-- VISIT MESSAGE (LOCAL STORAGE) -->
 <div id="visitMessage"></div>
 
+<!-- GRID CARDS -->
 <section class="discover-grid" id="discoverCards"></section>
 
 </main>

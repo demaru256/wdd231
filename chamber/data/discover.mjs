@@ -1,59 +1,50 @@
 export const places = [
-
-{
-name: "Mlimani City Mall",
-address: "Sam Nujoma Road, Dar es Salaam",
-image: "mlimani.webp",
-description: "One of the largest shopping malls in Tanzania offering shopping, dining, and entertainment."
-},
-
-{
-name: "Kariakoo Market",
-address: "Kariakoo, Dar es Salaam",
-image: "kariakoo.webp",
-description: "The busiest market in Tanzania where businesses trade food, clothes, and household goods."
-},
-
 {
 name: "Coco Beach",
 address: "Oysterbay, Dar es Salaam",
 image: "cocobeach.webp",
-description: "A popular beach destination for relaxation, food vendors, and cultural activities."
+description: "A popular beachfront for relaxation, food vendors, and social activities."
 },
-
+{
+name: "Kariakoo Market",
+address: "Kariakoo, Dar es Salaam",
+image: "kariakoo.webp",
+description: "The busiest trading hub in Tanzania for goods, food, and business exchange."
+},
+{
+name: "Mlimani City Mall",
+address: "Sam Nujoma Road",
+image: "mlimani.webp",
+description: "A modern shopping and entertainment center with major retail brands."
+},
 {
 name: "National Museum",
 address: "Shaaban Robert Street",
 image: "museum.webp",
-description: "Displays Tanzania's historical artifacts and heritage collections."
+description: "Preserves Tanzania’s cultural heritage and historical artifacts."
 },
-
 {
 name: "Village Museum",
 address: "Bagamoyo Road",
 image: "village.webp",
-description: "Shows traditional Tanzanian homes and cultural demonstrations."
+description: "Displays traditional Tanzanian homes and cultural performances."
 },
-
-{
-name: "Kunduchi Beach",
-address: "Kunduchi, Dar es Salaam",
-image: "kunduchi.webp",
-description: "A peaceful beach area with resorts and beautiful ocean views."
-},
-
-{
-name: "Mlimani Conference Center",
-address: "University of Dar es Salaam",
-image: "conference.webp",
-description: "Major venue for conferences, exhibitions, and trade shows."
-},
-
 {
 name: "Dar es Salaam Port",
-address: "Harbour Road",
+address: "Kivukoni Front",
 image: "port.webp",
-description: "One of the largest ports in East Africa supporting regional trade."
+description: "One of East Africa’s largest ports supporting international trade."
+},
+{
+name: "Kunduchi Beach",
+address: "Kunduchi",
+image: "kunduchi.webp",
+description: "A calm beach area with resorts and ocean views."
+},
+{
+name: "City Business District",
+address: "Downtown Dar es Salaam",
+image: "skyline.webp",
+description: "The financial and business center of Tanzania’s largest city."
 }
-
 ];

@@ -1,11 +1,13 @@
 import { places } from "../data/discover.mjs";
 
+// BUILD CARDS
 const container = document.getElementById("discoverCards");
 
-places.forEach(place => {
+places.forEach((place, index) => {
 
 const card = document.createElement("div");
 card.classList.add("discover-card");
+card.style.gridArea = String.fromCharCode(97 + index); // a-h
 
 card.innerHTML = `
 <h2>${place.name}</h2>
@@ -25,39 +27,24 @@ container.appendChild(card);
 
 });
 
-
-/* LOCAL STORAGE VISIT MESSAGE */
-
-const message = document.getElementById("visitMessage");
+// LOCAL STORAGE VISIT MESSAGE
+const msg = document.getElementById("visitMessage");
 
 const lastVisit = localStorage.getItem("lastVisit");
-
 const now = Date.now();
 
 if (!lastVisit) {
-
-message.textContent = "Welcome! Let us know if you have any questions.";
-
+msg.textContent = "Welcome! Let us know if you have any questions.";
 } else {
-
-const diff = now - lastVisit;
-
-const days = Math.floor(diff / 86400000);
+const days = Math.floor((now - lastVisit) / 86400000);
 
 if (days < 1) {
-
-message.textContent = "Back so soon! Awesome!";
-
+msg.textContent = "Back so soon! Awesome!";
 } else if (days === 1) {
-
-message.textContent = "You last visited 1 day ago.";
-
+msg.textContent = "You last visited 1 day ago.";
 } else {
-
-message.textContent = `You last visited ${days} days ago.`;
-
+msg.textContent = `You last visited ${days} days ago.`;
 }
-
 }
 
 localStorage.setItem("lastVisit", now);
