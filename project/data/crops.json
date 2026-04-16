@@ -1,0 +1,107 @@
+[
+{
+"name":"Coffee",
+"type":"Cash Crop",
+"region":"Central and Western Uganda",
+"description":"Coffee is Uganda’s most important export crop.",
+"image":"images/coffee.jpg"
+},
+{
+"name":"Tea",
+"type":"Cash Crop",
+"region":"Western Highlands",
+"description":"Tea plantations thrive in Uganda’s cool highland climates.",
+"image":"images/tea.jpg"
+},
+{
+"name":"Maize",
+"type":"Food Crop",
+"region":"Eastern Uganda",
+"description":"Maize is widely grown and used to make posho.",
+"image":"images/maize.jpg"
+},
+{
+"name":"Cassava",
+"type":"Food Crop",
+"region":"Northern Uganda",
+"description":"Cassava is a drought resistant staple food.",
+"image":"images/cassava.jpg"
+},
+{
+"name":"Banana",
+"type":"Food Crop",
+"region":"Central Uganda",
+"description":"Bananas are used to make matoke, a popular Ugandan dish.",
+"image":"images/banana.jpg"
+},
+{
+"name":"Beans",
+"type":"Food Crop",
+"region":"Western Uganda",
+"description":"Beans are a major source of protein in Ugandan diets.",
+"image":"images/beans.jpg"
+},
+{
+"name":"Rice",
+"type":"Food Crop",
+"region":"Eastern Uganda",
+"description":"Rice farming has expanded due to irrigation projects.",
+"image":"images/rice.jpg"
+},
+{
+"name":"Sorghum",
+"type":"Food Crop",
+"region":"Northern Uganda",
+"description":"Sorghum is used for porridge and traditional beverages.",
+"image":"images/sorghum.jpg"
+},
+{
+"name":"Millet",
+"type":"Food Crop",
+"region":"Eastern Uganda",
+"description":"Millet is used to make traditional bread and porridge.",
+"image":"images/millet.jpg"
+},
+{
+"name":"Cotton",
+"type":"Cash Crop",
+"region":"Northern Uganda",
+"description":"Cotton is grown for textile production.",
+"image":"images/cotton.jpg"
+},
+{
+"name":"Sugarcane",
+"type":"Cash Crop",
+"region":"Eastern Uganda",
+"description":"Sugarcane supports Uganda’s sugar industry.",
+"image":"images/sugarcane.jpg"
+},
+{
+"name":"Groundnuts",
+"type":"Food Crop",
+"region":"Northern Uganda",
+"description":"Groundnuts are used in sauces and snacks.",
+"image":"images/groundnuts.jpg"
+},
+{
+"name":"Sunflower",
+"type":"Cash Crop",
+"region":"Northern Uganda",
+"description":"Sunflower seeds are processed into cooking oil.",
+"image":"images/sunflower.jpg"
+},
+{
+"name":"Sweet Potato",
+"type":"Food Crop",
+"region":"Central Uganda",
+"description":"Sweet potatoes are nutritious and widely consumed.",
+"image":"images/sweetpotato.jpg"
+},
+{
+"name":"Pineapple",
+"type":"Cash Crop",
+"region":"Central Uganda",
+"description":"Pineapple farming supports fruit export markets.",
+"image":"images/pineapple.jpg"
+}
+]

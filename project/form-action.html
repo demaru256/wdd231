@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Form Results</title>
+
+<script>
+
+window.onload = function(){
+
+const params = new URLSearchParams(window.location.search);
+
+document.getElementById("results").innerHTML = `
+<p><strong>Name:</strong> ${params.get("name")}</p>
+<p><strong>Email:</strong> ${params.get("email")}</p>
+<p><strong>Crop Interest:</strong> ${params.get("crop")}</p>
+<p><strong>Message:</strong> ${params.get("message")}</p>
+`;
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h1>Submitted Information</h1>
+
+<div id="results"></div>
+
+</body>
+</html>

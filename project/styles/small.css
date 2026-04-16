@@ -1,0 +1,76 @@
+body{
+font-family:Arial, sans-serif;
+margin:0;
+background:#f5f7f2;
+}
+
+header{
+background:#2f6b2f;
+color:white;
+padding:1rem;
+}
+
+header h1{
+text-align:center;
+font-size:1.3rem;
+margin:0;
+}
+
+#menu{
+font-size:1.5rem;
+background:none;
+border:none;
+color:white;
+}
+
+nav ul{
+display:none;
+list-style:none;
+padding:0;
+}
+
+nav ul.open{
+display:block;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+display:block;
+padding:.5rem;
+}
+
+main{
+padding:1rem;
+}
+
+#crops section{
+background:white;
+margin:1rem 0;
+padding:1rem;
+border-radius:6px;
+box-shadow:0 2px 5px rgba(0,0,0,.2);
+}
+
+img{
+width:100%;
+border-radius:4px;
+}
+
+button{
+background:#3c8d3c;
+color:white;
+border:none;
+padding:.5rem;
+margin-top:.5rem;
+cursor:pointer;
+}
+
+footer{
+background:#2f6b2f;
+color:white;
+text-align:center;
+padding:1rem;
+margin-top:2rem;
+}
+
