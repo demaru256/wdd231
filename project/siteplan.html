@@ -2,101 +2,32 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Uganda Agricultural Explorer - Site Plan</title>
 
 <meta name="description" content="Site plan for the Uganda Agricultural Explorer website project">
-<meta name="author" content="Daniels Ema">
+<meta name="author" content="Emaru Daniel">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
-<style>
+<!-- External CSS -->
+<link rel="stylesheet" href="styles/siteplan.css">
 
-body{
-font-family: 'Open Sans', sans-serif;
-margin:0;
-padding:0;
-background:#A5D6A7;
-color:#222;
-line-height:1.6;
-}
-
-header{
-background:#2E7D32;
-color:white;
-padding:1rem;
-text-align:center;
-}
-
-main{
-max-width:900px;
-margin:auto;
-padding:20px;
-background:white;
-}
-
-h1,h2{
-font-family:'Poppins', sans-serif;
-color:#2E7D32;
-}
-
-section{
-margin-bottom:40px;
-}
-
-.color-box{
-display:inline-block;
-width:120px;
-height:40px;
-margin:10px 10px 10px 0;
-border:1px solid #ccc;
-}
-
-.green{
-background:#2E7D32;
-}
-
-.lightgreen{
-background:#A5D6A7;
-}
-
-.brown{
-background:#6D4C41;
-}
-
-.white{
-background:#ffffff;
-}
-
-.wireframe{
-background:#f4f4f4;
-padding:15px;
-border:1px solid #ccc;
-font-family:monospace;
-white-space:pre-line;
-}
-
-footer{
-background:#2E7D32;
-color:white;
-text-align:center;
-padding:1rem;
-}
-
-</style>
 </head>
 
 <body>
 
-<header>
+<header role="banner">
 <h1>Uganda Agricultural Explorer</h1>
 <p>Website Project Site Plan</p>
 </header>
 
-<main>
+<main role="main">
 
 <section>
 <h2>Site Name</h2>
@@ -111,13 +42,11 @@ The word <em>Explorer</em> represents discovering and learning about
 Uganda’s agricultural resources.
 </p>
 
-<p><strong>Optional Domain:</strong> ugandaagricultureexplorer.org</p>
-
+<p><strong>Optional Domain:</strong> <span>ugandaagricultureexplorer.org</span></p>
 </section>
 
 
 <section>
-
 <h2>Site Purpose</h2>
 
 <p>
@@ -133,25 +62,26 @@ save favorite crops, and submit farming tips or questions using a
 contact form.
 </p>
 
+<p>
+The website will include clear navigation to help users easily move
+between pages and find information quickly.
+</p>
 </section>
 
 
 <section>
-
 <h2>Scenarios</h2>
 
 <ul>
 <li>What are the major food crops grown in Uganda?</li>
 <li>Which crops are mainly produced as cash crops in Uganda?</li>
-<li>Which region in Uganda grows the most coffee or tea?</li>
+<li>Which region in Uganda grows crops like coffee or tea?</li>
 <li>How can I submit farming advice or ask agricultural questions?</li>
 </ul>
-
 </section>
 
 
 <section>
-
 <h2>Color Scheme</h2>
 
 <p>The website will use natural colors that represent agriculture.</p>
@@ -165,51 +95,36 @@ contact form.
 <p><strong>Earth Brown (#6D4C41)</strong> – used for buttons and highlights.</p>
 <div class="color-box brown"></div>
 
+<button class="sample-button">Sample Button</button>
+
 <p><strong>White (#FFFFFF)</strong> – used for content background and readability.</p>
 <div class="color-box white"></div>
-
 </section>
 
 
 <section>
-
 <h2>Typography</h2>
 
-<p><strong>Poppins</strong> – used for headings and titles to create a modern and clear design.</p>
+<p><strong>Poppins</strong> – used for all headings (<code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>)</p>
 
-<p><strong>Open Sans</strong> – used for body text and paragraphs because it is easy to read on all screen sizes.</p>
-
-<p>
-These fonts are imported using Google Fonts and are used directly
-in this document to demonstrate the typography choices.
-</p>
-
+<p><strong>Open Sans</strong> – used for paragraphs (<code>&lt;p&gt;</code>) and lists (<code>&lt;li&gt;</code>)</p>
 </section>
 
 
 <section>
-
 <h2>Wireframe</h2>
 
 <h3>Mobile View</h3>
 
 <div class="wireframe">
-
 LOGO / SITE NAME
-
 ☰ MENU
-
 HERO IMAGE
-
 WELCOME TEXT
-
-FEATURED CROPS
-
+FEATURED CROPS (Coffee, Maize, Bananas)
 [CROP CARD]
 [CROP CARD]
-
 EXPLORE CROPS BUTTON
-
 FOOTER
 </div>
 
@@ -217,19 +132,13 @@ FOOTER
 <h3>Desktop View</h3>
 
 <div class="wireframe">
-
 LOGO       NAVIGATION MENU
-
 HERO IMAGE WITH TITLE
-
 INTRODUCTION SECTION
-
 FEATURED CROPS GRID
-[CROP] [CROP] [CROP]
-[CROP] [CROP] [CROP]
-
+[Coffee] [Maize] [Bananas]
+[Beans]  [Cassava] [Tea]
 EXPLORE MORE SECTION
-
 FOOTER
 </div>
 
@@ -237,8 +146,8 @@ FOOTER
 
 </main>
 
-<footer>
-<p>Site Plan – WDD231 Final Project</p>
+<footer role="contentinfo">
+<p>Site Plan – Emaru Daniel – WDD231 Final Project</p>
 </footer>
 
 </body>
