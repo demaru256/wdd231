@@ -1,59 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Uganda Crops Directory</title>
+<title>Crops</title>
 
-<meta name="description" content="Explore major crops grown in Uganda including food crops and cash crops.">
-<meta name="author" content="Daniels Ema">
-
-<link rel="icon" href="images/favicon.ico">
+<link rel="icon" href="favicon.ico">
 
 <link rel="stylesheet" href="styles/small.css">
 <link rel="stylesheet" href="styles/large.css">
 
-<script defer src="js/navigation.js"></script>
-<script defer src="js/crops.js"></script>
-
+<script defer src="scripts/navigation.js"></script>
+<script type="module" src="scripts/crops.js"></script>
+<script defer src="scripts/footer.js"></script>
 </head>
 
 <body>
 
 <header>
-
-<button id="menu">☰</button>
-
 <h1>Uganda Agricultural Explorer</h1>
+<button id="menu">☰</button>
 
 <nav>
 <ul class="navigation">
-
 <li><a href="index.html">Home</a></li>
 <li><a href="crops.html">Crops</a></li>
 <li><a href="resources.html">Resources</a></li>
-
 </ul>
 </nav>
-
 </header>
 
 <main>
 
-<h2>Uganda Crops Directory</h2>
+<h2>Crops Directory</h2>
 
-<div id="crops-container"></div>
+<select id="filter">
+<option value="all">All</option>
+<option value="Food Crop">Food Crops</option>
+<option value="Cash Crop">Cash Crops</option>
+</select>
+
+<div id="crops"></div>
 
 </main>
 
+<dialog id="modal">
+<div id="modal-content"></div>
+<button id="close">Close</button>
+</dialog>
+
 <footer>
-
-<p>©2026 Uganda Agricultural Explorer</p>
-
-<a href="attributions.html">Attributions</a>
-
+<p>©2026 | Emaru Daniel | Uganda Agricultural Explorer</p>
+<p id="lastUpdated"></p>
 </footer>
 
 </body>

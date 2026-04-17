@@ -1,73 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Uganda Agriculture Resources</title>
-
-<meta name="description" content="Submit farming tips or ask questions about agriculture in Uganda.">
-<meta name="author" content="Daniels Ema">
-
-<link rel="icon" href="favicon.ico">
+<title>Resources</title>
 
 <link rel="stylesheet" href="styles/small.css">
 <link rel="stylesheet" href="styles/large.css">
 
-<script defer src="js/navigation.js"></script>
-
+<script defer src="scripts/navigation.js"></script>
+<script defer src="scripts/footer.js"></script>
 </head>
 
 <body>
 
 <header>
-
 <h1>Uganda Agricultural Explorer</h1>
-
 <button id="menu">☰</button>
 
 <nav>
-<ul>
+<ul class="navigation">
 <li><a href="index.html">Home</a></li>
 <li><a href="crops.html">Crops</a></li>
 <li><a href="resources.html">Resources</a></li>
 </ul>
 </nav>
-
 </header>
 
 <main>
 
-<h2>Farming Tips & Questions</h2>
-
-<p>
-Share your farming advice or ask questions about agriculture in Uganda.
-</p>
+<h2>Submit Info</h2>
 
 <form method="get" action="form-action.html">
 
-<label for="name">Name</label>
-<input id="name" name="name" type="text" required>
+<input name="name" placeholder="Name" required>
+<input name="email" type="email" placeholder="Email" required>
 
-<label for="email">Email</label>
-<input id="email" name="email" type="email" required>
-
-<label for="crop">Crop of Interest</label>
-
-<select id="crop" name="crop">
-
-<option value="Coffee">Coffee</option>
-<option value="Maize">Maize</option>
-<option value="Banana">Banana</option>
-<option value="Cassava">Cassava</option>
-<option value="Rice">Rice</option>
-
+<select name="crop">
+<option>Coffee</option>
+<option>Maize</option>
+<option>Banana</option>
 </select>
 
-<label for="message">Message</label>
-
-<textarea id="message" name="message" rows="5"></textarea>
+<textarea name="message"></textarea>
 
 <button type="submit">Submit</button>
 
@@ -76,12 +52,8 @@ Share your farming advice or ask questions about agriculture in Uganda.
 </main>
 
 <footer>
-
-<p>©2026 Uganda Agricultural Explorer</p>
-
-<a href="attributions.html">Attributions</a> |
-<a href="#">Project Video</a>
-
+<p>©2026 | Emaru Daniel | Uganda Agricultural Explorer</p>
+<p id="lastUpdated"></p>
 </footer>
 
 </body>
